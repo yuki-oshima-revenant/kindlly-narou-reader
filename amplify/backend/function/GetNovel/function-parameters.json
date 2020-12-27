@@ -1,0 +1,9 @@
+{
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "kindllynaroureaderbed5ce12",
+      "version": 3
+    }
+  ]
+}

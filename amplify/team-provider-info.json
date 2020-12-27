@@ -1,0 +1,55 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kindllynaroureader-dev-172305-authRole",
+      "UnauthRoleArn": "arn:aws:iam::621702102095:role/amplify-kindllynaroureader-dev-172305-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::621702102095:role/amplify-kindllynaroureader-dev-172305-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-kindllynaroureader-dev-172305-deployment",
+      "UnauthRoleName": "amplify-kindllynaroureader-dev-172305-unauthRole",
+      "StackName": "amplify-kindllynaroureader-dev-172305",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:621702102095:stack/amplify-kindllynaroureader-dev-172305/bd539df0-481c-11eb-913d-0eae5b697161",
+      "AmplifyAppId": "d2my30xr5rlgg4"
+    },
+    "nonCFNdata": {
+      "function": {
+        "kindllynaroureaderbed5ce12": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "+CMCBGV0sDdfE+vc/VPwqNIMB0GPWYIZHsfDJ7Y8sd0="
+            },
+            "2": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "xcLagc/28sSyLeAkEJEPfJpP7z0UDjos52ArQHN3BEs="
+            },
+            "3": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "ESG43KVBlYgPbKs6UQAYnQsSoY2J4ihdob3cfeIex/0="
+            }
+          }
+        }
+      }
+    },
+    "categories": {
+      "function": {
+        "kindllynaroureaderbed5ce12": {
+          "deploymentBucketName": "amplify-kindllynaroureader-dev-172305-deployment",
+          "s3Key": "amplify-builds/kindllynaroureaderbed5ce12-build.zip"
+        }
+      }
+    }
+  }
+}

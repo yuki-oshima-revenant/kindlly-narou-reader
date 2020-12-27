@@ -1,0 +1,23 @@
+{
+  "function": {
+    "kindllynaroureaderbed5ce12": {
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer",
+      "build": true
+    },
+    "GetNovel": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "kindllynaroureaderbed5ce12",
+          "attributes": [
+            "Arn"
+          ]
+        }
+      ]
+    }
+  }
+}
